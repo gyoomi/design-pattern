@@ -175,6 +175,32 @@ Define a family of algorithms,encapsulate each one,and make them interchangeable
 在实际项目中，我们一般通过工厂方法模式来实现策略类的声明，读者可以参考
 混编模式。后面我们在继续介绍混编模式。
 
+### 八、Spring和MyBatis中的使用
+1. MyBatis与策略模式
+
+   MyBatis配置文件mybatis-config.xml中的节点settings中有一项配置如下:
+   
+   ``` <setting name="defaultExecutorType" value="SIMPLE" /> ```
+   
+   配置的是MyBatis在运行过程中默认的执行器Executor，此项配置的默认值就是SIMPLE，指向就是接口Executor的实现类SimpleExecutor。
+   
+   通过查看源码可以看得到接口Executor的继承关系如下：
+   
+   ![](./asserts/002.png)
+   
+   这些实现类为接口Executor的策略簇，实现了不同的执行器策略：
+   
+   ```
+   SimpleExecutor：普通的执行器
+   BatchExecutor：批处理执行器
+   ReuseExecutor：预处理语句重用执行器
+
+   ```
+   
+   MyBatis中DefaultSqlSession似于策略模式中的Context。
+2. Spring与策略模式
+   后面补充。
+
 
 
 
