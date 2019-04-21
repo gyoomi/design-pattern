@@ -201,6 +201,7 @@ SortDecorator这层的封装也很简单，于是直接在Father中去掉就可�
 MyBatis中的缓存模块使用的变形后的装饰模式：只有构件接口（Cache），基础构件接口实现（PerpetualCache）和具体装饰类(BlockingCache、FifoCache、LruCache)的实现。
 感兴趣的同学可以阅读下相关代码实现。
 
+Java中的IO模块的设计也是使用了适配器模式，进行功能的动态添加和去粗。
 
 后续再补充Spring中的使用。
 
