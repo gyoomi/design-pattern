@@ -6,8 +6,7 @@
 
 package com.gyoomi.designpattern.command.demo02;
 
-import com.gyoomi.designpattern.command.demo02.group.Group;
-import com.gyoomi.designpattern.command.demo02.group.RequirementGroup;
+import com.gyoomi.designpattern.command.demo02.command.AddRequirementCommand;
 
 /**
  * Client
@@ -19,10 +18,10 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("-------------客户要求新增一个需求-------------");
-        // 客户先找到需求组，然后说来变更计划
-        Group requirementGroup = new RequirementGroup();
-        requirementGroup.find();
-        requirementGroup.add();
-        requirementGroup.plan();
+        // 小明算是接头人
+        Invoker xiaoming = new Invoker();
+        AddRequirementCommand addRequirementCommand = new AddRequirementCommand();
+        xiaoming.setCommand(addRequirementCommand);
+        xiaoming.action();
     }
 }
