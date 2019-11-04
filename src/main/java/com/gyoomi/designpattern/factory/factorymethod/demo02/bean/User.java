@@ -4,7 +4,7 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.factorymethod.bean;
+package com.gyoomi.designpattern.factory.factorymethod.demo02.factory.bean;
 
 /**
  * User bean

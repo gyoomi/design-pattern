@@ -4,10 +4,10 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.factorymethod.dao;
+package com.gyoomi.designpattern.factory.factorymethod.demo02.factory.dao;
 
 
-import com.gyoomi.designpattern.factory.factorymethod.bean.User;
+import com.gyoomi.designpattern.factory.factorymethod.demo02.factory.bean.User;
 
 /**
  * MySQLUserDaoImpl 实现类

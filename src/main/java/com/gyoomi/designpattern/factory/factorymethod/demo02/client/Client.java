@@ -4,12 +4,12 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.factorymethod.client;
+package com.gyoomi.designpattern.factory.factorymethod.demo02.factory.client;
 
-import com.gyoomi.designpattern.factory.factorymethod.dao.IUserDao;
-import com.gyoomi.designpattern.factory.factorymethod.factory.IDaoFactory;
-import com.gyoomi.designpattern.factory.factorymethod.factory.MySQLDaoFactory;
-import com.gyoomi.designpattern.factory.factorymethod.factory.OracleDaoFactory;
+import com.gyoomi.designpattern.factory.factorymethod.demo02.factory.dao.IUserDao;
+import com.gyoomi.designpattern.factory.factorymethod.demo02.factory.IDaoFactory;
+import com.gyoomi.designpattern.factory.factorymethod.demo02.factory.MySQLDaoFactory;
+import com.gyoomi.designpattern.factory.factorymethod.demo02.factory.OracleDaoFactory;
 
 /**
  * 测试类

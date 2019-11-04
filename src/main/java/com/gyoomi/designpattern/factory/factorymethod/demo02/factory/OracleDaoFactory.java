@@ -4,10 +4,10 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.factorymethod.factory;
+package com.gyoomi.designpattern.factory.factorymethod.demo02.factory;
 
-import com.gyoomi.designpattern.factory.factorymethod.dao.IUserDao;
-import com.gyoomi.designpattern.factory.factorymethod.dao.OracleUserDaoImpl;
+import com.gyoomi.designpattern.factory.factorymethod.demo02.factory.dao.IUserDao;
+import com.gyoomi.designpattern.factory.factorymethod.demo02.factory.dao.OracleUserDaoImpl;
 
 /**
  * OracleDaoFactory
