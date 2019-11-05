@@ -4,10 +4,10 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.abstractfactory.factory;
+package com.gyoomi.designpattern.factory.abstractfactory.demo01.factory;
 
-import com.gyoomi.designpattern.factory.abstractfactory.bean.Car;
-import com.gyoomi.designpattern.factory.abstractfactory.bean.Moto;
+import com.gyoomi.designpattern.factory.abstractfactory.demo01.bean.Car;
+import com.gyoomi.designpattern.factory.abstractfactory.demo01.bean.Moto;
 
 /**
  * 抽象工厂

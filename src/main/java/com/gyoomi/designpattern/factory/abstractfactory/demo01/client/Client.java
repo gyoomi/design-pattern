@@ -4,9 +4,9 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.abstractfactory.client;
+package com.gyoomi.designpattern.factory.abstractfactory.demo01.client;
 
-import com.gyoomi.designpattern.factory.abstractfactory.factory.*;
+import com.gyoomi.designpattern.factory.abstractfactory.demo01.factory.*;
 
 /**
  * 类功能描述

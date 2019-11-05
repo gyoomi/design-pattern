@@ -4,7 +4,7 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.simplefactory;
+package com.gyoomi.designpattern.factory.factorymethod.simplefactory;
 
 /**
  * 具体产品3

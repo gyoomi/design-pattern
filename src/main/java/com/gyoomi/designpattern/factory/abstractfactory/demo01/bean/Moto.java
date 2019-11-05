@@ -4,7 +4,7 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.abstractfactory.bean;
+package com.gyoomi.designpattern.factory.abstractfactory.demo01.bean;
 
 /**
  * 抽象产品 moto
