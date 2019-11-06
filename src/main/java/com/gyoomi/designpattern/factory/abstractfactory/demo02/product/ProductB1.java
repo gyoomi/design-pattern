@@ -4,7 +4,7 @@
  * All Rights Reserved.
  */
 
-package com.gyoomi.designpattern.factory.abstractfactory.demo02;
+package com.gyoomi.designpattern.factory.abstractfactory.demo02.product;
 
 /**
  * The description of class
@@ -12,10 +12,10 @@ package com.gyoomi.designpattern.factory.abstractfactory.demo02;
  * @author Leon
  * @date 2019-11-05 16:46
  */
-public class ProductA1 extends AbstractProductA {
+public class ProductB1 extends AbstractProductB {
 
     @Override
     public void doSomething() {
-        System.out.println("Product A1 的实现方法...");
+        System.out.println("Product B1 的实现方法...");
     }
 }
