@@ -16,8 +16,10 @@ alternative to subclassing for extending functionality.（动态地给一个对�
 - Component抽象构件
   Component是一个接口或者是抽象类，就是定义我们最核心的对象，也就是最原始的对
   象。
+  
   > 注意：在装饰模式中，必然有一个最基本、最核心、最原始的接口或抽象类充当
     Component抽象构件。
+                                                                       >
 - ConcreteComponent具体构件
   ConcreteComponent是最核心、最原始、最基本的接口或抽象类的实现，你要装饰的就是
   它。
